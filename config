@@ -13,6 +13,13 @@ set $inner_gaps 10
 set $outer_gaps 5
 
 for_window [class=".*"] border pixel 2
+#Colors settings
+# class        border  backgr. text    indicator child_border
+client.focused #f0c40d #f0c40d #BBA1FF #f0c40d
+client.focused_inactive #2C2C2C #2C2C2C #ffffff #2C2C2C
+client.unfocused #2C2C2C #2C2C2C #ffffff #2C2C2C
+client.urgent #f0c40d #f0c40d #BBA1FF #f0c40d
+
 gaps inner $inner_gaps
 gaps outer $outer_gaps
 
